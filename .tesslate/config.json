@@ -1,0 +1,14 @@
+{
+  "apps": {
+    "expo-app": {
+      "directory": ".",
+      "port": 8081,
+      "start": "npx expo start --web --host 0.0.0.0 --port 8081",
+      "env": {
+        "BROWSER": "none"
+      }
+    }
+  },
+  "infrastructure": {},
+  "primaryApp": "expo-app"
+}
