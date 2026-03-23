@@ -4,6 +4,9 @@
       "directory": ".",
       "port": 8081,
       "start": "npx expo start --web --host lan --port 8081",
+      "build": "npx expo export --platform web",
+      "output": "dist",
+      "framework": "expo",
       "env": {
         "BROWSER": "none"
       }
